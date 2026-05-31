@@ -1160,7 +1160,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Creacion / Cierre\nde Sesion",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1174,101 +1174,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
-            ],
-            "id": "43de7bc5-6724-4f87-81d2-dc63c59720ac",
-            "source": {
-              "cell": "f51615b5-6475-463b-886e-abb31cd9c575",
-              "port": "3746c32d-7837-40f6-a123-f4af3fb47053"
-            },
-            "target": {
-              "cell": "91a885fe-c987-4177-9c3d-bd6c08d5e32d",
-              "port": "60ea0a6a-2fac-4fdb-8c8f-d942301c0592"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "0feb341a-d84c-4b27-be0e-93381770f30e",
-            "source": {
-              "cell": "91a885fe-c987-4177-9c3d-bd6c08d5e32d",
-              "port": "2fbb5fae-dd86-4f56-aace-81cf133246ba"
-            },
-            "target": {
-              "cell": "fdc142c2-0258-4e2b-af30-c45cbdd71e0e",
-              "port": "58eecd52-15be-4c0e-854d-b971a84eb505"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
+              "Creacion / Cierre\nde Sesion"
             ],
             "id": "234c9d50-4115-4885-b7c8-7bb219c33ef0",
             "source": {
@@ -1301,7 +1207,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Listado, Carga y\nDescarga de\nArchivos",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1315,7 +1221,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Listado, Carga y\nDescarga de\nArchivos"
             ],
             "id": "8690e388-ee34-474b-9069-9fabd2965915",
             "source": {
@@ -1523,6 +1429,100 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consultas Clinicas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Consultas Clinicas"
+            ],
+            "id": "43de7bc5-6724-4f87-81d2-dc63c59720ac",
+            "source": {
+              "cell": "f51615b5-6475-463b-886e-abb31cd9c575",
+              "port": "3746c32d-7837-40f6-a123-f4af3fb47053"
+            },
+            "target": {
+              "cell": "91a885fe-c987-4177-9c3d-bd6c08d5e32d",
+              "port": "60ea0a6a-2fac-4fdb-8c8f-d942301c0592"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Lectura, Carga y\nDescarga de Documentos\nde Pacientes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Lectura, Carga y\nDescarga de Documentos\nde Pacientes"
+            ],
+            "id": "0feb341a-d84c-4b27-be0e-93381770f30e",
+            "source": {
+              "cell": "91a885fe-c987-4177-9c3d-bd6c08d5e32d",
+              "port": "2fbb5fae-dd86-4f56-aace-81cf133246ba"
+            },
+            "target": {
+              "cell": "fdc142c2-0258-4e2b-af30-c45cbdd71e0e",
+              "port": "58eecd52-15be-4c0e-854d-b971a84eb505"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 134,
               "y": 196
@@ -1709,23 +1709,77 @@
             ],
             "id": "abdb8b6a-08d0-4ef7-acbb-b19640c84121",
             "source": {
-              "x": 30,
+              "x": -10,
               "y": -10
             },
             "target": {
-              "x": 1140,
-              "y": 10
+              "x": 1120,
+              "y": -20
             },
             "vertices": [
               {
-                "x": 290,
-                "y": 140
+                "x": 350,
+                "y": 170
               },
               {
-                "x": 770,
-                "y": 140
+                "x": 530,
+                "y": 160
+              },
+              {
+                "x": 690,
+                "y": 160
+              },
+              {
+                "x": 980,
+                "y": 80
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "1905047d-87c2-4a4f-b739-588b23c2400e",
+            "source": {
+              "x": 940,
+              "y": 250
+            },
+            "target": {
+              "cell": "892e91ee-a49c-4c14-857a-2e322013b71b",
+              "port": "58eecd52-15be-4c0e-854d-b971a84eb505"
+            }
           }
         ],
         "description": "Entrega 3"
