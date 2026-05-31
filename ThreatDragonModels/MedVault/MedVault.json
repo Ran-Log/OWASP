@@ -1,0 +1,27 @@
+{
+  "version": "2.6.2",
+  "summary": {
+    "title": "MedVault",
+    "owner": "Ran-Log",
+    "description": "Entrega 3 MedVault",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Entrega 3"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Ran-Log",
+    "threatTop": 0
+  }
+}
