@@ -415,7 +415,7 @@
             },
             "attrs": {
               "text": {
-                "text": "/Files"
+                "text": "/files"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -514,7 +514,7 @@
             "id": "a5907da5-0716-43de-af59-596444172069",
             "data": {
               "type": "tm.Store",
-              "name": "/Files",
+              "name": "/files",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -539,7 +539,7 @@
             },
             "attrs": {
               "text": {
-                "text": "/Sessions"
+                "text": "/sessions"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -638,7 +638,7 @@
             "id": "d8d8f955-4646-4bec-bba0-a4b0c455a118",
             "data": {
               "type": "tm.Store",
-              "name": "/Sessions",
+              "name": "/sessions",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -663,7 +663,7 @@
             },
             "attrs": {
               "text": {
-                "text": "/Files/Documents"
+                "text": "/files/documents"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -762,7 +762,7 @@
             "id": "fdc142c2-0258-4e2b-af30-c45cbdd71e0e",
             "data": {
               "type": "tm.Store",
-              "name": "/Files/Documents",
+              "name": "/files/documents",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -911,7 +911,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Aplicacion\nWeb"
+                "text": "Aplicacion\nWeb /\nBackend"
               },
               "body": {
                 "stroke": "#333333",
@@ -1007,7 +1007,7 @@
             "id": "f51615b5-6475-463b-886e-abb31cd9c575",
             "data": {
               "type": "tm.Process",
-              "name": "Aplicacion\nWeb",
+              "name": "Aplicacion\nWeb /\nBackend",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1352,7 +1352,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Solicitudes no\nautentificadas",
+              "name": "Solicitudes no\nautentificadas\n/GET ; / POST",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1368,7 +1368,7 @@
               ]
             },
             "labels": [
-              "Solicitudes no\nautentificadas"
+              "Solicitudes no\nautentificadas\n/GET ; / POST"
             ],
             "id": "cb1b20ba-92f9-4b25-921a-f7bb088cc2c0",
             "source": {
